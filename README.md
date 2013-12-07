@@ -11,8 +11,7 @@ Logging
 -------
 
 - configured in src/main/resources log4j.properties 
-- added to webapp/WEB-INF/web.xml
-  - settings:
+- added to webapp/WEB-INF/web.xml settings:
   
   ```XML
    <context-param>
@@ -33,31 +32,30 @@ Logging
 Configuration
 -------------
 
-Configuration properties are autowired using `@Configuration` and
+Configuration properties are autowired using `@Configuration` and<br/>
 setting the properties with `@Value` see: com.haleenenterprise.web.config.Config
   
-The properties files are added in the src/resources/servlet.xml 
+The properties files are added in the `src/resources/servlet.xml` 
 
-The setup allows for overriding configuration, by adding the
-web.properties in the src/resources/ this puts it on the classpath and
-defaults all of the configuration values. 
+The setup allows for overriding configuration, by adding the<br/>
+`web.properties` in the `src/resources/` this puts it on the classpath and<br/>
+defaults all of the configuration values.<br/>
 
-The first override is pointing to a location on the file system and
-overrides any properties from the classpath properties.  This is
-useful because you can set the properties file on a production server
-and do not need to touch it for re-deployments.
+The first override is pointing to a location on the file system and<br/>
+overrides any properties from the classpath properties.  This is<br/>
+useful because you can set the properties file on a production server<br/>
+and do not need to touch it for re-deployments.<br/>
 
-The second override is by using the CATALINA_OPTS and setting a -D
-property to a property file.  This is useful for development mode or
-to change properties for testing without modifying the environment. 
+The second override is by using the CATALINA_OPTS and setting a -D<br/>
+property to a property file.  This is useful for development mode or<br/>
+to change properties for testing without modifying the environment. <br/>
 
 `export CATALINA_OPTS="-Dprops=/opt/props/web.properties "`
 
 
-
-
-
-To run  `mvn clean install tomcat7:run`
+Run
+---
+`mvn clean install tomcat7:run`
 
 
 
