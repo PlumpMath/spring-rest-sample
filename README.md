@@ -10,8 +10,8 @@ For future reference I have created this project as a starting point.
 Logging
 -------
 
-- configured in src/main/resources log4j.properties 
-- added to webapp/WEB-INF/web.xml settings:
+- configured in `src/main/resources/log4j.properties` 
+- added to `webapp/WEB-INF/web.xml` settings:
   
   ```XML
    <context-param>
