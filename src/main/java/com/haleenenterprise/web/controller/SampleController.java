@@ -26,10 +26,10 @@ public class SampleController {
     private Config config;
 
     @RequestMapping(value="echo/{word}", method = RequestMethod.GET)
-    public @ResponseBody Object word(@PathVariable("word") String word) {
+    public @ResponseBody Object word(@PathVariable("word") final String word) {
         LOGGER.info("word");
         return new HashMap<String, String>(){{
-            put("result", "0");
+            put("result", word);
         }};
     }
 

@@ -60,4 +60,11 @@ Run
 `mvn clean install tomcat7:run`
 
 
+```
+$ curl http://localhost:1337/services/sample/echo/what
+{"result":"what"}
+$ curl http://localhost:1337/services/sample/foo
+bar
+```
+
 

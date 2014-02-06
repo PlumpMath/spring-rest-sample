@@ -9,7 +9,7 @@ public class TestConfig {
     public void indepthTest(){
         Config config = new Config();
         config.setFoo("foo");
-        
+
         Assert.assertEquals("should be foo... obviously", "foo", config.getFoo());
     }
 
