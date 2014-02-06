@@ -1,6 +1,8 @@
 spring-rest-sample
 ==================
 
+[![Build Status](https://secure.travis-ci.org/scotthaleen/spring-rest-sample.png?branch=master)](http://travis-ci.org/scotthaleen/spring-rest-sample)
+
 Every time I start a new Spring project, I always spend a bunch of<br/>
 time trying to get Spring wired up with the servlet.  Along with<br/>
 getting logging and basic configuration setup.  
