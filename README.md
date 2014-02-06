@@ -3,9 +3,8 @@
 
 [![Build Status](https://secure.travis-ci.org/scotthaleen/spring-rest-sample.png?branch=master)](http://travis-ci.org/scotthaleen/spring-rest-sample)
 
-Every time I start a new Spring project, I always spend a bunch of<br/>
-time trying to get Spring wired up with the servlet.  Along with<br/>
-getting logging and basic configuration setup.  
+Starting point for Spring projects that are mostly [REST-like](http://www.intridea.com/blog/2010/4/29/rest-isnt-what-you-think-it-is) services<br/>
+with basic configuration and logging setup. 
 
 For future reference I have created this project as a starting point.
 
