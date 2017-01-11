@@ -3,6 +3,7 @@
 
 [![Build Status](https://secure.travis-ci.org/scotthaleen/spring-rest-sample.png?branch=master)](http://travis-ci.org/scotthaleen/spring-rest-sample)
 
+
 Starting point for Spring projects that are mostly [REST-like](http://www.intridea.com/blog/2010/4/29/rest-isnt-what-you-think-it-is) services<br/>
 with basic configuration and logging setup. 
 
